@@ -1,0 +1,491 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+body{
+  width: 100%;
+  height: auto;
+
+padding: 0px;
+margin-top: 150%  auto;
+}
+#cuerpo{
+  animation-duration: 1s;
+animation-name: cuerpo-animacion;
+animation-duration: 1s;
+-webkit-animation-delay: 1s;
+-moz-animation-delay: 1s;
+-o-animation-delay: 1s;
+animation-delay: 1s;
+}
+@keyframes cuerpo-animacion {
+  0% {
+margin-top:150%;
+}
+  60% {
+margin-top:-5%;
+}
+  100% {
+margin-top:0%;
+}
+}
+
+
+
+header{
+  width: 100%;
+  background-color: #5b7989;
+  margin-bottom: 0px;
+  overflow: hidden;
+  border-top-left-radius:10px ;
+  border-top-right-radius:10px ;
+  font-family: 'Courgette', cursive;
+}
+
+header .logo {
+
+  font-size: 20px;
+  line-height: 100px;
+  float: left;
+  margin-left: 30px;
+}
+header p{
+  float:right;
+}
+.logo h1{
+color: white;
+  text-shadow: 2px 2px 2px #02010a;
+  background-color: #5b7989;
+
+}
+header nav{
+  float: right; /*para usar este devemos poner debemos poner "overflow: hidden"*/
+  margin: 20px;
+  line-height: 200px
+  color:white;
+  background-color: #5b7989;
+
+
+}
+
+#warpper{
+  width: 100%;
+
+  overflow: hidden;
+}
+
+header nav a{
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  display: inline-block;
+  color: white;
+  text-decoration: underline;
+  margin: 10px 20px;
+  line-height: normal;
+  font-size: 20px;
+  font-weight:  bold;
+  -webkit-transition:all 500ms ease; /*para dar efecto ccon :hover*/
+  -o-transition:all 500ms ease; /*para dar efecto ccon :hover*/
+  -moz-transition:all 500ms ease; /*para dar efecto ccon :hover*/
+  text-shadow: 2px 2px 2px #02010a;
+  background-color: #5b7989;
+}
+header nav a:hover{
+
+    border-radius: 30px;
+    background-color:	#2F4F4F;
+    text-shadow: 2px 2px 2px #02010a;
+    font-size: 25px;
+}
+
+
+#c1{
+
+  background-color:#82c3a6;
+  margin:0;
+  text-align: center;
+  width: 100%;
+}
+#c2{
+  background-color: #d5c75f;
+border: 1px;
+width: 50%;
+height: 350px;
+float: left;
+text-align: center;
+}
+#c3 {
+  background-color: #d5c75f;
+  border: 1px;
+  float: right;
+  width: 50%;
+  height: 350px;
+text-align: center;
+}
+img {
+  width: 600px;
+  height: 300px;
+  margin: 2px;
+  box-shadow: 2px 2px 2px  #02010a;
+
+}
+#c2  .img2 {
+  width: 450px;
+  height: auto;
+vertical-align;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+}
+#c2 h3 {
+  text-align: center;
+  width: 100%;
+}
+#c3 h3 {
+  text-align: center;
+  width: 100%;
+}
+#c3  .img2 {
+  width: 450px;
+  height: auto;
+  vertical-align;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+margin-top: 30px;
+}
+#seccion {
+  background-color: #d5c75f;
+  width: 100%;
+  height:600px;
+
+}
+#c1 img{
+  width: 700px;
+  height: auto;
+  margin: 2px;
+
+}
+.rotate{
+  -webkit-transition:all 0.5s ease; /*para dar efecto ccon :hover*/
+  -o-transition:all 0.5s ease; /*para dar efecto ccon :hover*/
+-moz-transition:all 0.5s ease; /*para dar efecto ccon :hover*/
+}
+.rotate:hover{
+transform: rotate(10deg);
+box-shadow: 2px 2px 2px  #82c3a6;
+border:2px;
+}
+  .traslada{
+-webkit-transition:all 0.5s ease; /*para dar efecto ccon :hover*/
+-o-transition:all 0.5s ease; /*para dar efecto ccon :hover*/
+-moz-transition:all 0.5s ease; /*para dar efecto ccon :hover*/
+  }
+.traslada:hover{
+transform:translate(20px,-5px);
+-webkit-transform-translate:(20px,-5px); /*para dar efecto ccon :hover*/
+-o-transform-translate: (20px,-5px); /*para dar efecto ccon :hover*/
+-moz-transform-translate:(20px,-5px); /*para dar efecto ccon :hover*/
+box-shadow: 2px 2px 2px  #82c3a6;
+border:2px;
+}
+
+footer{
+  height: 180px;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius: 10px;
+  background-color: #C6d5c5;
+  overflow: hidden;
+}
+#todacol{
+  width: 100%;
+  overflow:   hidden;
+}
+#columna1{
+  background-color: #C6d5c5;
+width: 25%;
+height: 180px;
+margin: 0;
+padding: 0;
+order: 1;
+float: left;
+}
+
+#columna2{
+  background-color:#C6d5c5;
+width: 25%;
+height: 180px;
+margin: 0;
+padding: 0;
+order: 2;
+float: left;
+}
+#columna4{
+  background-color:#C6d5c5;
+width: 25%;
+height: 180px;
+margin: 0;
+padding: 0;
+order: 4;
+float: right;
+}
+#columna3{
+  background-color:#C6d5c5;
+width: 25%;
+height: 180px;
+margin: 0;
+padding: 0;
+order: 4;
+float: right;
+}
+#todacol h2{
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+  padding-top: 5px;
+  font-family: 'Dancing Script', cursive;
+}
+#todacol P{
+  text-align: center;
+  font-size: 20px;
+  padding: 0;
+  font-family: 'Dancing Script', cursive;
+font-weight: bold;
+}
+
+#todacol h3{
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 10px;
+  font-family: 'Dancing Script', cursive;
+}
+#todacol h2:hover{
+  font-size: 25px;
+  font-weight: bold;
+}
+#todacol h3:hover{
+  font-size: 25px;
+  font-weight: bold;
+}
+#todacol p:hover{
+  font-size: 22px;
+  padding: 2px;
+  padding-top:0;
+  font-weight: bold;
+}
+#columna4 ul{
+  list-style-type: none;
+  text-align: center;
+}
+#columna4 ul li img{
+  width: 30px;
+  height: 30px;
+  padding-left: 10px;
+  box-shadow: none;
+  padding-top: 2px;
+  font-family: 'Dancing Script', cursive;
+}
+#columna4 i{
+font-weight: bold;
+font-size: 20px;
+font-family: 'Dancing Script', cursive;
+}
+#columna4 ul li img +  i:hover{
+width: 40px;
+height: 40px;
+font-family: 'Dancing Script', cursive;
+font-weight: bold;
+font-size: 25px;
+}
+
+#c2 p,#c3 p {
+    font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  font-weight: bold;
+}
+#c2 p:hover#c3 p:hover{
+  font-size: 25px;
+font-weight: bold;
+text-decoration: underline;
+}
+
+#seccion1{
+  width: 100%;
+  background-color: #d5c75f;
+  height: 550px;
+  overflow: hidden;
+}
+#art1{
+  width:33.33%;
+  height: 600px;
+  background-color: #d5c75f;
+  float: left;
+}
+#art2{
+  width:33.33%;
+  height: 600px;
+  background-color: #d5c75f;
+  float: right;
+}
+#art3{
+  width:33.33%;
+  height: 600px;
+  background-color: #d5c75f;
+  float: right;
+}
+#seccion1 img{
+  width: 350px;
+  height: auto;
+  vertical-align;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+margin-top: 30px;
+  box-shadow: 2px 2px 2px  #02010a;
+}
+#ret1{
+  -webkit-filter:blur(10px); /*para dar efecto ccon :hover*/
+filter:blur(10px);
+}
+#ret2,#ret4,#ret6{
+  -webkit-filter:grayscale(100%);
+  filter:  grayscale(100%);
+  }
+#ret5{
+  -webkit-filter: sepia(90%);
+  filter: sepia(90%);
+}
+@media screen and (min-width: 900px) {
+  #warpper{
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width:480px) and ( max-width:600px){
+  #warpper{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat (3,1fr);
+    }
+  #seccion{
+position: relative;
+height: 1000px;
+align-items: center;
+justify-content: center;
+
+ }
+#c2{
+  padding-top:  300px;
+  position:    absolute;
+  order: ;
+  width: 100%;
+}
+#c3{
+
+  position: absolute ;
+  float: inherit;
+  order: 2;
+    width: 100%;
+}
+#c1 img {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    box-shadow: 2px 2px 2px  #02010a;
+    order: 1;
+}
+#c2 img {
+
+  flex: none;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    box-shadow: 2px 2px 2px  #02010a;
+    order:2 ;
+}
+#c3 img {
+  flex: none;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    box-shadow: 2px 2px 2px  #02010a;
+    order:3 ;
+}
+#seccion1{
+  display:   grid;
+  grid-template-columns: repeat(4,1fr);
+  height: auto;
+  width: 100%;
+
+}
+
+
+.center1{
+      align-items: stretch;
+}
+#art1  {
+  width: 100%;
+  grid-row: 1;
+  height: auto;
+  text-align:center;
+  padding-left:   80px;
+}
+
+#art2  {
+  width: 100%;
+  grid-row:  2;
+  height: auto;
+  padding-left:   80px;
+}
+#art3  {
+  width: 100%;
+  grid-row:  3;
+height: auto;
+padding-left:  80px;}
+}
+@media screen and (max-width:899px){
+  #warpper{
+    width: 100%;
+    margin: 0 auto;
+  }
+  header{
+
+    width: 100%;
+    background-color: #5b7989;
+    margin-bottom: 0px;
+    overflow: hidden;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+    font-family: 'Courgette', cursive;
+    height: 100px;
+    }
+    header .logo {
+      align-items: center;
+      font-size: 18px;
+      line-height: 70px;
+      float: left;
+      margin: auto;
+      padding: 0;
+    }
+    header div{
+      width: 100%;
+      text-align: center;
+      height: 40px;
+    }
+    header nav{
+      width: 100%;
+      text-align: center;
+    }
+    .menu a{
+      font-size: 15px;
+      padding: 0;
+      margin: 0px;
+      line-height: 15px;
+    }
+
+  }
